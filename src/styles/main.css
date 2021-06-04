@@ -3,11 +3,6 @@ body {
     margin: 0;
 }
 
-body {
-    display: flex;
-    justify-content: center;
-}
-
 .topbar {
     display: none;
 }
@@ -17,6 +12,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .logo {
@@ -74,7 +72,6 @@ body {
 .hamburger {
     display: inline-block;
     position: relative;
-
     width: 24px;
     transition: 10s;
     padding: 0;
