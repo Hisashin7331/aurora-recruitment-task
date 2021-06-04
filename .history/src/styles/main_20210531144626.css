@@ -1,0 +1,28 @@
+html,
+body {
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.topbar {
+  width: 100%;
+  height: 48px;
+  box-sizing: border-box;
+  border-bottom: 2px solid #d7d7d7;
+  position: absolute;
+  top: 0;
+}
+
+.nav {
+  width: 1920px;
+  position: absolute;
+  top: 48px;
+}
+
+.nav_wrapper {
+  height: 100%;
+}
